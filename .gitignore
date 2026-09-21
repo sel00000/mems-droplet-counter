@@ -1,6 +1,7 @@
-# Keep only the public project README among Markdown files.
+# Keep the English and Korean project READMEs among Markdown files.
 *.[mM][dD]
 !/README.md
+!/README.ko.md
 
 # Local assistant/editor state and credentials.
 .claude/
