@@ -1,0 +1,48 @@
+# Keep only the public project README among Markdown files.
+*.[mM][dD]
+!/README.md
+
+# Local assistant/editor state and credentials.
+.claude/
+.codex/
+.omc/
+.omx/
+.superpowers/
+.env
+.env.*
+*.pem
+*.key
+
+# Python environments and generated files.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+*.spec.bak
+*.log
+
+# Research recordings and generated analysis outputs.
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.gt.json
+out/
+out_*/
+검증_클립/
+스모크_클립/
+진단_*/
+정답표_초안/
+
+# Operating system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini
